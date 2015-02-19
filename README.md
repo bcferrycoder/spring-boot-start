@@ -13,9 +13,19 @@ curl localhost:1234
 ```
   
 
-## Push to Cloud Foundry
+## Push to Stackato
 
 ```bash
+  stackato push myapp -p target/gs-spring-boot-0.1.0.jar
+```
+
+
+## Push to Cloud Foundry
+
+
   cf push myapp -p target/gs-spring-boot-0.1.0.jar
+
+```bash
+  stackato push myapp -p target/gs-spring-boot-0.1.0.jar
 ```
 
