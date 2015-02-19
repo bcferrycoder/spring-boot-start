@@ -16,7 +16,7 @@ curl localhost:1234
 ## Push to Stackato
 
 ```bash
-  stackato push myapp --path target/gs-spring-boot-0.1.0.jar
+  stackato push --path target/gs-spring-boot-0.1.0.jar
 ```
 
 
